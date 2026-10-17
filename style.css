@@ -2876,11 +2876,11 @@ a {
 
 .about-inner {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1120px;
   margin: 0 auto;
   padding-top: 40px;
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 0.85fr) minmax(0, 1.25fr);
+  grid-template-columns: minmax(220px, 0.9fr) minmax(240px, 0.85fr) minmax(360px, 1.25fr);
   column-gap: 32px;
   align-items: center;
   box-sizing: border-box;
