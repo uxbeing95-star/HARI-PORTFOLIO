@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Topcon Field Mobile — UX Case Study | Hari Krishna</title>
+  <meta name="description" content="A UX/UI design case study exploring mobile experience design for Topcon Field Mobile.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="case-study-page">
+
+  <header class="case-study-header">
+    <a href="index.html" class="case-study-back">← Back to portfolio</a>
+    <a href="index.html" class="case-study-brand">Hari Krishna<span>.</span></a>
+  </header>
+
+  <div class="case-study-layout">
+
+    <aside class="case-study-sidebar">
+      <p class="case-study-sidebar-title">ON THIS PAGE</p>
+
+      <nav class="case-study-toc" aria-label="Case study sections">
+        <a href="#overview" class="toc-link active">Overview</a>
+        <a href="#challenge" class="toc-link">The Problem</a>
+        <a href="#approach" class="toc-link">My Approach</a>
+        <a href="#workflows" class="toc-link">Key Workflows</a>
+        <a href="#design-decisions" class="toc-link">Design Decisions</a>
+        <a href="#outcome" class="toc-link">Reflection</a>
+      </nav>
+    </aside>
+
+    <main class="case-study-content">
+
+      <!-- HERO -->
+      <section class="case-study-hero" id="overview">
+        <p class="eyebrow">LTIMINDTREE / MOBILE UX</p>
+
+
+        <h1>Topcon Field Mobile</h1>
+
+        <p class="case-study-intro">
+          Designing a mobile experience that helps field engineers
+          capture surveying measurements, manage site activities,
+          and work reliably in low-connectivity environments.
+        </p>
+        
+
+
+        <div class="case-study-meta">
+            <div>
+              <span>MY ROLE</span>
+              <p>Senior UX/UI Designer</p>
+            </div>
+          
+            <div>
+              <span>UX TIMELINE</span>
+              <p>2 months</p>
+            </div>
+          
+            <div>
+              <span>PROJECT TYPE</span>
+              <p>B2B · GIS</p>
+            </div>
+
+            <div>
+                <span>PLATFORM</span>
+                <p>Web & Mobile</p>
+            </div>
+          </div>
+          
+
+        <figure class="case-study-hero-image">
+          <img
+            src="images/topcon-field-hero.png"
+            alt="Concept visual representing a mobile field application"
+          >
+          <figcaption>
+            Concept visual for portfolio presentation, not a verified product screenshot.
+          </figcaption>
+        </figure>
+      </section>
+
+
+<!-- 01 / THE CHALLENGE -->
+<section class="case-study-section problem-section" id="challenge">
+    <div class="section-heading">
+      <p class="section-eyebrow">01 / THE CHALLENGE</p>
+      <h2>Complex fieldwork. A clearer mobile experience.</h2>
+      <p class="section-intro">
+        Enhancing the existing Topcon mobile experience required more than
+        redesigning screens. We first had to understand the Total Station,
+        its measurement workflows, and the needs of engineers working
+        in demanding field conditions.
+      </p>
+    </div>
+  
+    <div class="problem-grid">
+      <article class="problem-card">
+        <span class="problem-number">01</span>
+        <h3>Understanding the device</h3>
+        <p>
+          Learning how the Total Station, prism, and measurement calculations
+          worked before translating technical processes into understandable
+          mobile interactions.
+        </p>
+        <span class="problem-tag">TECHNICAL COMPLEXITY</span>
+      </article>
+  
+      <article class="problem-card">
+        <span class="problem-number">02</span>
+        <h3>Different user needs</h3>
+        <p>
+          Designing appropriate workflows for field engineers, site managers,
+          project managers, and contract personnel, each with different
+          responsibilities and information needs.
+        </p>
+        <span class="problem-tag">USER PERSONAS</span>
+      </article>
+  
+      <article class="problem-card">
+        <span class="problem-number">03</span>
+        <h3>Working in the field</h3>
+        <p>
+          Making measurements, stockpile mapping, inspections, and task
+          management practical on mobile, including workflows that could
+          continue offline and synchronise when connectivity returned.
+        </p>
+        <span class="problem-tag">FIELD USABILITY</span>
+      </article>
+    </div>
+  </section>
+  
+
+<!-- 02 / MY APPROACH -->
+<section class="case-study-section" id="approach">
+    <div class="section-heading">
+      <p class="section-eyebrow">02 / MY APPROACH</p>
+      <h2>From understanding the device to designing for the field.</h2>
+      <p class="section-intro">
+        I focused on understanding the technology and the people using it
+        before designing the interface. Through client collaboration,
+        low-fidelity prototyping and field validation, we refined the
+        experience around real surveying workflows.
+      </p>
+    </div>
+  
+    <div class="approach-timeline">
+      <article class="approach-step">
+        <span class="approach-number">01</span>
+        <div>
+          <h3>Learn how the device works</h3>
+          <p>
+            Worked closely with the client to understand the Total Station,
+            prism, measurement readings and the calculations behind the
+            surveying process. This initial learning phase helped us design
+            around the actual technology rather than assumptions.
+          </p>
+          <span class="problem-tag">DEVICE UNDERSTANDING</span>
+        </div>
+      </article>
+  
+      <article class="approach-step">
+        <span class="approach-number">02</span>
+        <div>
+          <h3>Understand personas and task flows</h3>
+          <p>
+            Considered the different responsibilities of field engineers,
+            site managers, project managers and contract personnel.
+            Their tasks and information needs informed the structure of
+            the mobile experience.
+          </p>
+          <span class="problem-tag">PERSONAS & USER FLOWS</span>
+        </div>
+      </article>
+  
+      <article class="approach-step">
+        <span class="approach-number">03</span>
+        <div>
+          <h3>Sketch, prototype and validate</h3>
+          <p>
+            Explored information architecture and interactions through
+            sketches, paper prototypes and low-fidelity wireframes.
+            We reviewed the concepts with the client and obtained
+            approval before progressing to detailed UI design.
+          </p>
+          <span class="problem-tag">LOW-FIDELITY PROTOTYPING</span>
+        </div>
+      </article>
+  
+      <article class="approach-step">
+        <span class="approach-number">04</span>
+        <div>
+          <h3>Collaborate and test in the field</h3>
+          <p>
+            Collaborated face-to-face with the client and Japanese UX
+            designers, refining the experience through agile iterations.
+            On-site field usability testing helped us evaluate whether
+            engineers could understand and use the proposed mobile
+            workflows in their working environment.
+          </p>
+          <span class="problem-tag">FIELD USABILITY TESTING</span>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+
+
+<!-- 03 / KEY WORKFLOWS -->
+<section class="case-study-section" id="workflows">
+  <div class="section-heading">
+    <p class="section-eyebrow">03 / KEY WORKFLOWS</p>
+    <h2>Connecting field measurements to project operations.</h2>
+    <p class="section-intro">
+      The mobile experience brought together surveying measurements,
+      map-based site activities, workforce coordination and reporting.
+      Each workflow was designed around the practical needs of teams
+      working in the field.
+    </p>
+  </div>
+
+  <div class="module-grid">
+    <article class="module-card">
+      <span class="module-number">01</span>
+      <h3>Surveying & measurement capture</h3>
+      <p>
+        Connected the mobile workflow with the Topcon Total Station
+        to receive field readings, support measurement calculations
+        and generate the required outputs.
+      </p>
+      <span class="problem-tag">DEVICE INTEGRATION</span>
+    </article>
+
+    <article class="module-card">
+      <span class="module-number">02</span>
+      <h3>Map-based site operations</h3>
+      <p>
+        Used the client-requested ArcGIS mapping experience with point,
+        line, circle and polygon tools to select site areas and identify
+        relevant stockpile locations.
+      </p>
+      <span class="problem-tag">GIS & MAPPING</span>
+    </article>
+
+    <article class="module-card">
+      <span class="module-number">03</span>
+      <h3>Dashboards & task assignments</h3>
+      <p>
+        Structured workflows for field engineers, site managers and
+        project managers, covering assigned tasks, inspection progress,
+        check-in/check-out and workforce coordination.
+      </p>
+      <span class="problem-tag">FIELD OPERATIONS</span>
+    </article>
+
+    <article class="module-card">
+      <span class="module-number">04</span>
+      <h3>Offline work & reporting</h3>
+      <p>
+        Supported measurement capture in areas without internet access,
+        followed by data synchronisation when connectivity returned
+        and report generation for the project management team.
+      </p>
+      <span class="problem-tag">OFFLINE & SYNC</span>
+    </article>
+  </div>
+</section>
+
+
+
+<!-- 04 / DESIGN DECISIONS -->
+<section class="case-study-section" id="design-decisions">
+  <div class="section-heading">
+    <p class="section-eyebrow">04 / DESIGN DECISIONS</p>
+    <h2>Designing for the realities of fieldwork.</h2>
+    <p class="section-intro">
+      Every design decision was informed by the technical workflow,
+      the people using the application, and the conditions in which
+      they worked. The focus was on making complex field operations
+      easier to understand and perform on mobile.
+    </p>
+  </div>
+
+  <div class="design-system-grid">
+    <article class="design-system-card">
+      <span class="design-system-number">01</span>
+      <h3>Make technical data understandable</h3>
+      <p>
+        Structure measurement readings and supporting information
+        so engineers can interpret the results and understand the
+        next step in the surveying workflow.
+      </p>
+    </article>
+
+    <article class="design-system-card">
+      <span class="design-system-number">02</span>
+      <h3>Design around field conditions</h3>
+      <p>
+        Account for on-site tasks, map-based area selection and
+        intermittent connectivity, including offline measurement
+        capture and synchronisation when a connection returns.
+      </p>
+    </article>
+
+    <article class="design-system-card">
+      <span class="design-system-number">03</span>
+      <h3>Adapt to different user roles</h3>
+      <p>
+        Organise information and task flows around the responsibilities
+        of engineers, site managers and project managers, while
+        maintaining consistency with the client's existing design system.
+      </p>
+    </article>
+  </div>
+
+  <div class="design-system-takeaway">
+    <span class="takeaway-label">DESIGN PRINCIPLE</span>
+    <p>
+      <strong>Understand the work before designing the interface.</strong>
+      Learning how the Total Station operated and how engineers
+      worked on-site helped us make more informed UX decisions.
+    </p>
+  </div>
+</section>
+
+
+
+<!-- 05 / OUTCOME & REFLECTION -->
+<section class="case-study-section impact-section" id="outcome">
+  <div class="section-heading">
+    <p class="section-eyebrow">05 / OUTCOME & REFLECTION</p>
+    <h2>From technical complexity to a clearer UX direction.</h2>
+    <p class="section-intro">
+      The project brought together device understanding, role-based
+      workflows and field-focused mobile design. The UX deliverables
+      were completed and handed over within the two-month project
+      period, ahead of the broader timeline.
+    </p>
+  </div>
+
+  <div class="impact-grid">
+    <article class="impact-card">
+      <span class="impact-symbol">↗</span>
+      <h3>Timely UX delivery</h3>
+      <p>
+        Completed and handed over the UX deliverables within two months,
+        ahead of the broader three-month UX timeline discussed for
+        the project.
+      </p>
+    </article>
+
+    <article class="impact-card">
+      <span class="impact-symbol">✳</span>
+      <h3>Client appreciation</h3>
+      <p>
+        The client appreciated the design work, which reflected the
+        value of understanding the technical requirements and refining
+        the experience collaboratively.
+      </p>
+    </article>
+
+    <article class="impact-card">
+      <span class="impact-symbol">↔</span>
+      <h3>Further project opportunity</h3>
+      <p>
+        The engagement opened an opportunity to work on another
+        device-related product, extending the team's experience
+        with technical field applications.
+      </p>
+    </article>
+  </div>
+
+  <div class="impact-reflection">
+    <p class="reflection-label">WHAT I LEARNED</p>
+    <h3>Understand the technology before designing the experience.</h3>
+    <p>
+      Learning how the Total Station, prism and measurement process
+      worked taught me to approach technical products with curiosity
+      before moving into interface design. Direct client collaboration,
+      iterative prototyping and on-site field usability testing helped
+      ground design decisions in the realities of fieldwork.
+    </p>
+  </div>
+
+  <p class="concept-disclaimer">
+    Visuals used in this case study should be identified as concept
+    imagery where they are not original project screens. Project
+    outcomes are described qualitatively because verified quantitative
+    impact metrics were not available.
+  </p>
+</section>
+
+
+      <!-- FOOTER -->
+      <section class="case-study-footer">
+        <h2>Have a project in mind?</h2>
+        <a href="index.html#contact" class="case-study-cta">
+          Get in touch ↗
+        </a>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
